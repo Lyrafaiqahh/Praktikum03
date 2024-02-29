@@ -1,9 +1,20 @@
-public class PersegiPanjang {
+public class PersegiPanjang  {
         public int panjang;
         public int lebar;
     
 
     public void cetakInfo() {
-        System.out.println("Panjang: " + panjang);
-        System.out.println("Lebar  : " + lebar);
-    }}
+        System.out.print(", Panjang: " + panjang );
+        System.out.print(", Lebar: " + lebar  );
+        
+    }
+
+    public PersegiPanjang(int p, int l) {
+        panjang = p;
+        lebar = l;
+    }
+
+}
+
+
+
